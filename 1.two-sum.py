@@ -18,7 +18,7 @@ class Solution(object):
             if rest in dict:
                 return [i, dict[rest]]
             else:
-                dict[num] = i
+                dict[num] = i + 1
         
 # @lc code=end
 
